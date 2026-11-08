@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SPUD Food Store</title>
+    <link rel="stylesheet" href="cssstyle.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="spud.png" alt="Logo">
+            <h2>SPUD FOOD STORE</h2>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html">All Snacks</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Contact Section -->
+<section class="contact">
+    <h1>Contact Us</h1>
+
+    <p>Email:noaychabyboy@gmail.com</p>
+    <p>Phone: +63 09566649703</p>
+    <p>Location: Negros Oriental, Philippines</p>
+
+    <!-- Contact Form -->
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder=" Message your Concern" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+</body>
+</html>
